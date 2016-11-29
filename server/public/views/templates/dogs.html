@@ -1,0 +1,11 @@
+<div style="margin-bottom: 100px;">
+  <h1 class="text-center">DOGS</h1>
+</div>
+<button ng-click="dogs.getPets()">Get a dog!</button>
+<div class="col-md-8">
+  <img class="image" src="{{dogs.animal.media.photos.photo[2].$t}}"></img>
+</div>
+<div class="col-md-4">
+  <h3>BIO: </h3></br>
+  <h3>{{dogs.bio}}</h3>
+</div>
